@@ -1,0 +1,282 @@
+Castellano2020:
+recipe: PO3 (-0.8 mA), PO4 (-0.4 mA), Oz (1.2 mA)
+capType:    1005
+elecType:   disc    disc    disc    
+elecSize:   [10.0,2.0]; [10.0,2.0]; [10.0,2.0]
+elecOri:    N/A; N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+DAtri2017:
+recipe: FT7 (0.6 mA), FT8 (-0.6 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [6.0,2.0]; [6.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+DeKoninck2021Anterieur:
+recipe: F3 (4.03 mA), F4 (-4.03 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [29.0,2.0]; [29.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+DeKoninck2021Posterieur1:
+recipe: PO7 (1 mA), PO8 (-1 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [29.0,2.0]; [29.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+DeKoninck2021Posterieur6:
+recipe: PO7 (6 mA), PO8 (-6 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [29.0,2.0]; [29.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+Dowsett2016:
+recipe: Cz (-2 mA), Oz (2 mA)
+capType:    1010
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [40.0,40.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+Fusca2018Strong:
+recipe: Cz (-0.653 mA), Oz (0.653 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Fusca2018Weak:
+recipe: Cz (-0.05 mA), Oz (0.05 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Kasten2016:
+recipe: Cz (-1.2 mA), Oz (1.2 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [40.0,40.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Neuling2013:
+recipe: Cz (-0.905 mA), Oz (0.905 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+ 
+Struber2015:
+recipe: Cz (-0.758 mA), Oz (0.758 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+ 
+Vossen2015:
+recipe: PO9h (2 mA), PO10h (-2 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    si; si
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Vossen2017:
+recipe: PO9h (1.84 mA), PO10h (-1.84 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    si; si
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+
+Gundlach2017:
+recipe: CP3 (1 mA), CP4 (-1 mA)
+capType:    1005
+elecType:   pad pad 
+elecSize:   [40.0,40.0,3.0]; [40.0,40.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+ 
+Kasten2019:
+recipe: Cz (-1 mA), Oz (1 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [40.0,40.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Kim2020:
+recipe: F3 (-2 mA), F4 (2 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [30.0,2.0]; [30.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Lafleur2021:
+recipe: C3 (1 mA), C4 (-1 mA)
+capType:    1005
+elecType:   disc    disc    
+elecSize:   [6.0,2.0]; [6.0,2.0]
+elecOri:    N/A; N/A
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Stecher2017:
+recipe: Cz (-1 mA), Oz (1 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [45.0,45.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+
+Stecher2021:
+recipe: Cz (-1 mA), Oz (1 mA)
+capType:    1020
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+ 
+Zaehle201020:
+recipe: PO9 (1.12 mA), PO10 (-1.12 mA)
+capType:    1005
+elecType:   pad pad 
+elecSize:   [70.0,50.0,3.0]; [70.0,50.0,3.0]
+elecOri:    si; si
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    20
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+Zarubin2020:
+recipe: Cz (1 mA), Oz (-1 mA)
+capType:    1005
+elecType:   pad pad 
+elecSize:   [40.0,40.0,3.0]; [40.0,40.0,3.0]
+elecOri:    lr; lr
+T2: none
+meshOpt:    radbound: 5; angbound: 30; distbound: 0.3; reratio: 3; maxvol: 10
+conductivities: white: 0.126; gray: 0.276; CSF: 1.650; bone: 0.010; skin: 0.465; air: 2.5e-14; gel: 0.300; 0.300; electrode: 5.9e+07; 5.9e+07; 
+reSampling: off
+zeroPadding:    none
+original MRI in RAS?:   no, and is re-oriented into RAS
+
+
+
+ 
+
