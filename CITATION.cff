@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Bot"
-  given-names: "Hew"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "SR_ROAST"
+- family-names: "Brazeau"
+  given-names: "Daphnée"
+  orcid: "https://orcid.org/0000-0002-3836-4227"
+- family-names: "De Koninck"
+  given-names: "Beatrice P."
+  orcid: "https://orcid.org/0000-0002-0857-774X"
+title: "SR_alphatACS_ROAST"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
 date-released: 2022-08-02
