@@ -14,6 +14,7 @@ This code includes
 
 Focality is defined as a ratio of the number of brain voxels that have a value greater than 50% of the Emax on the total number of voxels in the cortex. 
 
+The open-source software called Realistic Volumetric-approach to simulate transcranial electric stimulation [(ROAST)](https://github.com/andypotatohy/roast), provide end-to-end pipelines that allow automatic processing of individual heads via realistic volumetric anatomy, for individualized transcranial electrical modeling based on Huang Y, Datta A, Bikson M, Parra LC. Realistic volumetric-approach to simulate transcranial electric stimulation—ROAST—a fully automated open-source pipeline. J Neural Eng. 2019;16(5):056006. doi:10.1088/1741-2552/ab208d
 
 ### Needed before using the code ###
 You need a valid Matlab license to run this ROAST and this code.
