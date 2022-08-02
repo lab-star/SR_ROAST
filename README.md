@@ -16,6 +16,7 @@ Focality is defined as a ratio of the number of brain voxels that have a value g
 
 
 ### Needed before using the code ###
+You need a valid Matlab license to run this ROAST and this code.
 1. Download [ROAST](https://github.com/andypotatohy/roast)
 2. Run your simulation.  
 
