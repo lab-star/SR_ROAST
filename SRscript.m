@@ -40,6 +40,7 @@ minimum=min(vox50) %find the minimum
 %Find number of brain voxels that have a value greater than 50% of the
 %Emax(5%)
 meanE5= mean(ef_mag_nonan(1:ceil(length(ef_mag_nonan)*0.05))); %the average of the top 5% values  
+SDE5= std(ef_mag_nonan(1:ceil(length(ef_mag_nonan)*0.05)));% find the SD for Emax(5%)
 vox50_5= ef_mag_nonan(ef_mag_nonan > meanE5/2) %Find values above 50% of Emax(5%)
 min5=min(vox50_5) %find the minimum
 
